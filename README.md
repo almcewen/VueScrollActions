@@ -1,6 +1,8 @@
 # VueScrollActions
 Vue plugin providing directives to control scroll actions including when the page is scrolled to a point, when elements come onto/leave the screen.
 
+VueScrollActions requires no other libs - No JQuery here! -- Although some functionality is inspired by JQuery (much love!)
+
 #### NOTE: Stable but there are some more release notes and docs to come.
 
 ## Requirements
@@ -113,7 +115,7 @@ VueScrollActions provides a helper function to smoothly animate a scroll to a pa
 ```javascript
 this.$scrollTo('footer', 60);
 ```
-This will scroll the window to the footer's offset in the document with an vertical offset of 60px
+This will smoothly animate a scroll to **footer's** offset with a vertical offset of 60px
 
 ## Caveats
 1. The are many improvements to come! I'm still trying to find time to fine tune and write proper tests/examples
