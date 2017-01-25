@@ -24,6 +24,7 @@ Vue.use(VueScrollActions);
 
 ## Vue Instance properties
 In addition to the directives VueScrollActions add some useful instance methods
+
 | function                       | description  |
 | ------------------------------ |:-------------------------------- |
 |   $scrollTo(selector, offset)  |  scroll the viewport to the specified element with offset added to the final position |
@@ -115,3 +116,5 @@ this.$scrollTo('footer', 60);
 This will scroll the window to the footer's offset in the document with an vertical offset of 60px
 
 ## Caveats
+1. The are many improvements to come! I'm still trying to find time to fine tune and write proper tests/examples
+2. Expect changes! Expect more functionality to come and even some changes to use cases.
